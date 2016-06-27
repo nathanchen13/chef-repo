@@ -1,0 +1,8 @@
+[snapshots]
+name=Snapshotsbaseurl=http://<ec2-52-91-121-146.compute-1.amazonaws.com>:8081/nexus/content/repositories/snapshots/
+enabled=1
+protect=0
+gpgcheck=0
+metadata_expire=30s
+autorefresh=1
+type=rpm-md
