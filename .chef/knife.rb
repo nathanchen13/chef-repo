@@ -6,5 +6,5 @@ log_location             STDOUT
 node_name                "nchen"
 client_key               "#{current_dir}/nchen.pem"
 chef_server_url          "https://172.31.2.19/organizations/coveros"
-cookbook_path            ["#{current_dir}/../cookbooks"]
-
+#cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path [ '.', '..', './cookbooks', '~/git/chef' ]
